@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Satpuda College AI Chatbot</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<header>
+
+<h1>Satpuda College Of Engineering & Polytechnic</h1>
+
+<p>AI Chatbot Information System</p>
+
+</header>
+
+
+
+<section class="info">
+
+<h2>About College</h2>
+
+<p>
+Satpuda College of Engineering and Polytechnic provides technical education
+in engineering fields like Computer Science, Mechanical, Civil, Electrical
+and Mining Engineering. The college focuses on practical learning,
+placements and internships for students.
+</p>
+
+</section>
+
+
+
+<section class="courses">
+
+<h2>Courses Available</h2>
+
+<ul>
+
+<li>B.Tech</li>
+<li>Diploma</li>
+<li>Polytechnic</li>
+<li>MBA</li>
+<li>M.Tech</li>
+<li>BCA</li>
+<li>BBA</li>
+<li>B.Sc</li>
+<li>BA</li>
+<li>B.Com</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="streams">
+
+<h2>Engineering Streams</h2>
+
+<ul>
+
+<li>Mechanical Engineering</li>
+<li>Civil Engineering</li>
+<li>Computer Science Engineering</li>
+<li>Electrical Engineering</li>
+<li>Mining Engineering</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="fees">
+
+<h2>Fees Structure</h2>
+
+<p>Polytechnic Total Fees : ₹75,000</p>
+
+<p>B.Tech Total Fees : ₹1.56 Lakhs</p>
+
+<p>Mechanical Engineering First Year : ₹25,000</p>
+
+<p>Computer Science First Year : ₹39,000</p>
+
+<p>Mining Engineering First Year : ₹25,000</p>
+
+</section>
+
+
+
+<section class="placement">
+
+<h2>Placement</h2>
+
+<p>
+
+Companies visit the college during 7th and 8th semester.
+Maximum package offered is around ₹8 LPA.
+Students also get internship opportunities through different platforms.
+
+</p>
+
+</section>
+
+
+
+<section class="faculty">
+
+<h2>Faculty</h2>
+
+<p>
+
+Faculty student ratio is about 1:20.
+Teachers are supportive and helpful.
+Dr. Amit Shukla is the Head of Department of Computer Science.
+
+</p>
+
+</section>
+
+
+
+<section class="timing">
+
+<h2>College Timing</h2>
+
+<p>10:00 AM to 5:00 PM</p>
+
+</section>
+
+
+
+<!-- CHATBOT -->
+
+<div class="chatbot">
+
+<div class="chat-header">
+
+AI College Chatbot 🤖
+
+</div>
+
+
+<div id="chatbox">
+
+<div class="bot-message">
+
+Hello 👋  
+I am Satpuda College AI Assistant.  
+Ask me about courses, fees, placement, faculty or timing.
+
+</div>
+
+</div>
+
+
+
+<div class="input-area">
+
+<input type="text" id="userInput" placeholder="Ask something...">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
